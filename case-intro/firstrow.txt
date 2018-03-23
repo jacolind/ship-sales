@@ -1,0 +1,28 @@
+OrderID                            10248
+LineNo                                 1
+ShipperID                              2
+EmployeeID                             2
+ShipmentDate         2014-07-17 00:00:00
+OrderDate            2014-06-29 00:00:00
+Freight                            43.48 Freight weight
+Quantity                              10 Nr of items bought for the product
+UnitPrice                          14.04 From Orderdetails. The product's price.
+Discount                               0 Maximum discount is 0.25
+ShipperIDorName    World Wide Transports The shipping company for a particular OrderID.
+ProductName                Walking Shoes The name of the product.
+SupplierID                            20 The company producing the product.
+QuantityPerUnit                        1 From Products. How many units the product is sold for this product, e.g. for socks it might be 2 in each unit.
+UnitCost                           10.95 The product's cost for the store to buy it.
+UnitsInStock                          26
+UnitsOnOrder                           0
+CustomerName            Dr Jims Trousers
+City                              London
+Country                               UK
+DivisionName                      Europe
+CategoryName            Women's Footwear
+
+`Income =  UnitPrice * (1-Discount) * `
+`Profit = Income - UnitCost`
+
+Variabledescriptions:
+LineNo is a counter for each order, for example OrderID=201248 has three items so LineNo counts 1, 2, and 3. Hence we would use the tuple (OrderID, LineNo) as our dataframe's index.

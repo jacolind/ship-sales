@@ -1,0 +1,14 @@
+Vi vill bilda oss en förståelse över era möjligheter att ta er an en enklare verksamhetsutmaning. Hur bygger ni en datamodell i ett BI verktyg och val av visualiseringar för att presentera data på ett lättförståeligt sätt.
+
+Uppgift:
+
+Bygg datamodell, koppla ihop alla tabeller via de nyckelfält som finns i databasen.
+Skapa en dashboard där ni presenterar
+total försäljning,
+total marginal kr och %,
+Antal kunder, snittvärde per order,
+trend fsg och marginal.
+
+Skapa ytterligare flikar där ni fokuserar på att analysera vilka produkter vi säljer samt en med fokus på vilka våra kunder är.
+
+Hittar ni mera intressanta saker att presentera är det helt ok att gå utanför uppgiften

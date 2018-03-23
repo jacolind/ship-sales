@@ -1,0 +1,40 @@
+shipments:
+OrderID, LineNo, ShipperID, CustomerID, ProductID, EmployeeID, ShipmentDate
+17033 x 7
+
+orderdetails:
+OrderID, LineNo, ProductID, Quantity, UnitPrice, Discount
+17033 x 6
+
+orders:
+OrderID, OrderDate, CustomerID, EmployeeID, ShipperID, Freight
+6572 x 6
+
+Medium size lookup tables:
+
+customers:
+CustomerID, CompanyName, ContactName, City, Country, DivisionID, Address, Fax, Phone, PostalCode, StateProvince
+93 x 11
+
+products:
+ProductID, ProductName, SupplierID, CategoryID, QuantityPerUnit, UnitCost, UnitPrice, UnitsInStock, UnitsOnOrder
+78 x 9
+we cannot know supplierID
+
+Small lookup tables:
+
+divions:
+DivisionID,f DivisionName
+5 x 2
+replace DivisionID with DivisionName
+
+categories:
+CategoryID, CategoryName, Description
+9 x 3
+data
+replace CategoryID with CategoryName
+
+shippers:
+ShipperID, CompanyName
+4 x 2
+replace shipperID with CompanyName
