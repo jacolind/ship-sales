@@ -17,3 +17,8 @@ We are given several excel-files of a company, and we wish to answer some basic 
 ## Important files
 
 `shipsales_jacoblindberg.html` inside the folder `/html-output`
+
+## Status 
+
+The task is solved. It was a visualizations case and this has been done. 
+I do not plan to dedicate more work to this repo.
